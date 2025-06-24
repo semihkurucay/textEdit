@@ -21,7 +21,7 @@ public class frmTextEdit extends javax.swing.JFrame {
      */
     public frmTextEdit() {
         initComponents();
-        ImageIcon imgIcon = new ImageIcon("home.png");
+        ImageIcon imgIcon = new ImageIcon(getClass().getResource("/resources/homeIcon.png"));
         
         Image orginalImg = imgIcon.getImage();
         Image resizeImage = orginalImg.getScaledInstance(btnHome.getWidth() - 10, btnHome.getHeight() - 10, Image.SCALE_SMOOTH);
