@@ -51,9 +51,6 @@ public class TextEdit {
             String result = "";
             Scanner sc = new Scanner(new File(fileParh.concat("\\".concat(fileName))));
             while(sc.hasNextLine()){
-//                if(sc.hasNext("\n")){
-//                    result += "\n";
-//                }
                 result += sc.nextLine().concat(" ");
                 result += "\n";
             }
